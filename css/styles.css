@@ -37,8 +37,7 @@ a {
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
-.contacts-link:focus,
-.hero-btn {
+.contacts-link:focus {
   color: #404bbf;
 }
 
@@ -49,7 +48,7 @@ a {
 .contacts-link {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: -0.02em;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -60,17 +59,22 @@ a {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: -0.02em;
+  letter-spacing: 0.02em;
+  text-align: center;
   color: #ffffff;
 }
 .hero-btn {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: -0.04em;
+  letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
+}
+.button:hover,
+:focus {
+  background-color: #404bbf;
 }
 
 .advantages {
@@ -83,14 +87,14 @@ a {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: -0.02em;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .adventures-item-text {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: -0.02em;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -101,11 +105,13 @@ a {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: -0.02em;
+  letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .team-list {
+  background-color: #ffffff;
 }
 .team-item {
 }
@@ -115,14 +121,14 @@ a {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: -0.02em;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .team-text {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: -0.02em;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -130,8 +136,9 @@ a {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: -0.02em;
+  letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .portfolio-image {
@@ -140,14 +147,14 @@ a {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: -0.02em;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .portfolio-text {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: -0.02em;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -161,6 +168,6 @@ a {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: -0.02em;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
